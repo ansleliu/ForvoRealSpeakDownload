@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddKeyDialog</class>
+ <widget class="QDialog" name="AddKeyDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>353</width>
+    <height>162</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>  添加新的API Key</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="RC.qrc">
+    <normaloff>:/new/prefix1/rc/Key.ico</normaloff>:/new/prefix1/rc/Key.ico</iconset>
+  </property>
+  <widget class="QPushButton" name="AcceptButton">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>130</y>
+     <width>71</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+   <property name="icon">
+    <iconset resource="RC.qrc">
+     <normaloff>:/new/prefix1/rc/Ok (2).ico</normaloff>:/new/prefix1/rc/Ok (2).ico</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="QuitButton">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>130</y>
+     <width>71</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+   <property name="icon">
+    <iconset resource="RC.qrc">
+     <normaloff>:/new/prefix1/rc/Forbidden (2).ico</normaloff>:/new/prefix1/rc/Forbidden (2).ico</iconset>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>331</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>请输入KEY值和KEY名：</string>
+   </property>
+   <widget class="QLineEdit" name="KeyNameLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>70</y>
+      <width>271</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="KeyNameLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>KEY名：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="KeyValueLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>KEY值：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="KeyValueLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>30</y>
+      <width>271</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <zorder>groupBox</zorder>
+  <zorder>AcceptButton</zorder>
+  <zorder>QuitButton</zorder>
+ </widget>
+ <resources>
+  <include location="RC.qrc"/>
+ </resources>
+ <connections/>
+</ui>

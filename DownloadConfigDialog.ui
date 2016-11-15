@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DownloadConfigDialog</class>
+ <widget class="QDialog" name="DownloadConfigDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>463</width>
+    <height>212</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>  语音下载配置  </string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="RC.qrc">
+    <normaloff>:/new/prefix1/rc/Tool2 (2).ico</normaloff>:/new/prefix1/rc/Tool2 (2).ico</iconset>
+  </property>
+  <widget class="QComboBox" name="KeyComboBox">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>30</y>
+     <width>181</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>-1</number>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>251</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLabel" name="APIKeyLabel">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>10</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>选择APIKey：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="DownloadLabel">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>100</y>
+     <width>151</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>选择要下载的单词编号范围：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="StartLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>130</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="EndSpinBox">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>130</y>
+     <width>71</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>130</y>
+     <width>31</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>——</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="AddKeyButton">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>60</y>
+     <width>81</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>添加KEY</string>
+   </property>
+   <property name="icon">
+    <iconset resource="RC.qrc">
+     <normaloff>:/new/prefix1/rc/Plus.ico</normaloff>:/new/prefix1/rc/Plus.ico</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="AcceptButton">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>180</y>
+     <width>71</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+   <property name="icon">
+    <iconset resource="RC.qrc">
+     <normaloff>:/new/prefix1/rc/Ok (2).ico</normaloff>:/new/prefix1/rc/Ok (2).ico</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="QuitButton">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>180</y>
+     <width>71</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+   <property name="icon">
+    <iconset resource="RC.qrc">
+     <normaloff>:/new/prefix1/rc/Forbidden (2).ico</normaloff>:/new/prefix1/rc/Forbidden (2).ico</iconset>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="AutoCheckBox">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>60</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>自动管理</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="RC.qrc"/>
+ </resources>
+ <connections/>
+</ui>

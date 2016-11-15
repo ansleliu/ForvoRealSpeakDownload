@@ -1,0 +1,72 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>rc/Application (2).ico</file>
+        <file>rc/Application.ico</file>
+        <file>rc/Applications (2).ico</file>
+        <file>rc/Applications.ico</file>
+        <file>rc/Database (2).ico</file>
+        <file>rc/Database.ico</file>
+        <file>rc/Download (2).ico</file>
+        <file>rc/Download.ico</file>
+        <file>rc/Music (2).ico</file>
+        <file>rc/Music.ico</file>
+        <file>rc/Music2 (2).ico</file>
+        <file>rc/Music2.ico</file>
+        <file>rc/Player FastFwd (2).ico</file>
+        <file>rc/Player FastFwd.ico</file>
+        <file>rc/Player FastRev (2).ico</file>
+        <file>rc/Player FastRev.ico</file>
+        <file>rc/Player Next (2).ico</file>
+        <file>rc/Player Next.ico</file>
+        <file>rc/Player Pause (2).ico</file>
+        <file>rc/Player Pause.ico</file>
+        <file>rc/Player Play (2).ico</file>
+        <file>rc/Player Play.ico</file>
+        <file>rc/Player Previous (2).ico</file>
+        <file>rc/Player Previous.ico</file>
+        <file>rc/Player Stop (2).ico</file>
+        <file>rc/Player Stop.ico</file>
+        <file>rc/Plus (2).ico</file>
+        <file>rc/Plus.ico</file>
+        <file>rc/Sound Minus (2).ico</file>
+        <file>rc/Sound Minus.ico</file>
+        <file>rc/Sound Off (2).ico</file>
+        <file>rc/Sound Off.ico</file>
+        <file>rc/Sound On (2).ico</file>
+        <file>rc/Sound On.ico</file>
+        <file>rc/Sound Plus (2).ico</file>
+        <file>rc/Sound Plus.ico</file>
+        <file>rc/Standby (2).ico</file>
+        <file>rc/Standby.ico</file>
+        <file>rc/Start (2).ico</file>
+        <file>rc/Start.ico</file>
+        <file>rc/Tool (2).ico</file>
+        <file>rc/Tool.ico</file>
+        <file>rc/Tool2 (2).ico</file>
+        <file>rc/Tool2.ico</file>
+        <file>rc/Wait (2).ico</file>
+        <file>rc/Wait.ico</file>
+        <file>rc/Home (2).ico</file>
+        <file>rc/Home.ico</file>
+        <file>rc/Home2 (2).ico</file>
+        <file>rc/Home2.ico</file>
+        <file>rc/qt-logo.png</file>
+        <file>rc/Folder (2).ico</file>
+        <file>rc/Folder.ico</file>
+        <file>rc/Folder2 (2).ico</file>
+        <file>rc/Folder2.ico</file>
+        <file>rc/Folder3 (2).ico</file>
+        <file>rc/Folder3.ico</file>
+        <file>rc/Forbidden (2).ico</file>
+        <file>rc/Forbidden.ico</file>
+        <file>rc/Ok (2).ico</file>
+        <file>rc/Ok.ico</file>
+        <file>rc/pic.png</file>
+        <file>rc/Info (2).ico</file>
+        <file>rc/Info.ico</file>
+        <file>rc/Info2 (2).ico</file>
+        <file>rc/Info2.ico</file>
+        <file>rc/Key (2).ico</file>
+        <file>rc/Key.ico</file>
+    </qresource>
+</RCC>
